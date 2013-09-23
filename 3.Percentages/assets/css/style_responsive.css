@@ -1,0 +1,23 @@
+*{
+	margin: 5px auto;
+}
+
+body{
+	font-family: georgia;
+}
+
+.title, .content{
+	width: 60%;
+	padding: 5px 20px 5px 20px;
+}
+
+.title{
+	text-align: center;
+	font-size: 40px;
+	background-color: #edf1fa;
+}
+
+.content{
+	font-size: 20px;
+	background-color: rgb(66, 139, 202);
+}
