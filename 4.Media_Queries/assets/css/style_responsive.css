@@ -1,0 +1,39 @@
+body{
+	font-family: georgia;
+	text-align: center;
+	font-size: 25px;
+}
+
+img {
+	max-width: 100%;
+}
+
+@media (max-width: 467px) {
+  .desktop {
+    display: none;
+  }
+
+  .tablet{
+  	display: none;
+  }
+}
+
+@media (min-width: 468px) and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile{
+  	display: none;
+  }
+}
+
+@media (min-width: 769px){
+	.mobile{
+  		display: none;
+  	}
+
+  	.tablet{
+  	display: none;
+  }
+}
