@@ -6,7 +6,7 @@ body{
 }
 
 header{
-	font-size: 60px;
+	font-size: 4em;
 	text-align: center;
 	background-color: rgb(66, 139, 202);
 	color: #fff;
@@ -47,7 +47,7 @@ nav h1{
 	text-align: center;
 }
 
-img {
+img,video {
 	max-width: 100%;
 }
 
@@ -77,6 +77,7 @@ background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 
 blockquote {
   background: url('http://i.imgur.com/VG5N5iW.gif') top left no-repeat;
+  padding-left: 50px;
   background-color: #dadada;
   padding-left: 70px;
   padding-top: 18px;
@@ -94,3 +95,21 @@ footer{
 	clear: both;
 }
 
+@media (max-width: 968px){
+	#blog {
+		max-width: 100%;
+	}
+
+	nav {
+		display: none;
+	}
+
+	blockquote{
+	padding-left: 20%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-right: 5%;
+  	margin-right: -5%;
+	margin-left: -5%;
+	}
+}
