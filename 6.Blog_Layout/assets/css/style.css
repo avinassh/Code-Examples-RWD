@@ -8,25 +8,42 @@ body{
 header{
 	font-size: 60px;
 	text-align: center;
-	background-color: rgb(44, 55, 59);
+	background-color: rgb(66, 139, 202);
 	color: #fff;
 	padding: 5px 5px;
 }
 
 
-section {
+#blog {
     max-width: 70%;
     float: left;
+    margin-bottom: 10px;
 }
 
-nav{
+#about p{
+	margin: 4px 5px 4px 6px;
+}
+
+nav {
+	margin-top: 10px;
 	float: right;
 	width: 30%;
-	background-color: #000;
-	color: #fff;
+}
+
+nav section{
+	margin-bottom: 10px;
+	background-color: rgb(227, 236, 243);
+	color: #000;
+	border-radius: 3%;
+	width: 100%;
+	padding: 2px 2px 2px 2px;
 }
 
 nav h1{
+	text-align: center;
+}
+
+#social{
 	text-align: center;
 }
 
@@ -34,16 +51,45 @@ img {
 	max-width: 100%;
 }
 
-nav img{
+#avatar{
 	width: 60%;
 	border-radius: 5%;
-	margin: 5px auto;
+	margin: 5px 20%;
 }
+
+.ads{
+	text-align: center;
+}
+
+#post-title{
+	font-size: 35px;
+	font-style:italic
+}
+
+hr {border: 0;
+height: 1px;
+background: #333;
+background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+blockquote {
+  background: url('http://i.imgur.com/VG5N5iW.gif') top left no-repeat;
+  padding-left: 50px;
+  background-color: #dadada;
+  padding-left: 70px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 10px;
+
+} 
 
 footer{
 	font-size: 20px;
 	text-align: center;
-	background-color: rgb(44, 55, 59);
+	background-color: rgb(66, 139, 202);
 	color: #fff;
 	padding: 5px 5px;
 	clear: both;
