@@ -1,8 +1,9 @@
-body{
+body {
 	font-family: georgia;
-	font-size: 25px;
+	font-size: 1.6em;
 }
 
 img {
 	max-width: 100%;
+	overflow: hidden;
 }

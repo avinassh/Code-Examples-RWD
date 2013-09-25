@@ -1,49 +1,50 @@
-body{
+body {
 	font-family: georgia;
 	background-color: #f4f4f4;
 	margin: 15px auto;
 	width: 80%;
 }
 
-header{
+header {
 	font-size: 4em;
 	text-align: center;
 	background-color: rgb(66, 139, 202);
 	color: #fff;
-	padding: 5px 5px;
+	padding: 10px 10px;
 }
-
 
 #blog {
     max-width: 70%;
     float: left;
     margin-bottom: 10px;
+    line-height: 1.7em;
 }
 
-#about p{
-	margin: 4px 5px 4px 6px;
+#about p {
+	margin: 6px 10px 6px 10px;
+	line-height: 1.4em;
 }
 
 nav {
-	margin-top: 10px;
+	margin-top: 20px;
 	float: right;
 	width: 30%;
 }
 
-nav section{
+nav section {
 	margin-bottom: 10px;
 	background-color: rgb(227, 236, 243);
-	color: #000;
+	color: rgba(0, 0, 0, 0.7);
 	border-radius: 3%;
 	width: 100%;
 	padding: 2px 2px 2px 2px;
 }
 
-nav h1{
+nav h1 {
 	text-align: center;
 }
 
-#social{
+#social {
 	text-align: center;
 }
 
@@ -51,51 +52,52 @@ img,video {
 	max-width: 100%;
 }
 
-#avatar{
-	width: 60%;
+#avatar {
+	width: 70%;
 	border-radius: 5%;
-	margin: 5px 20%;
+	margin: 5px 15% 20px 15%;
 }
 
-.ads{
+.ads {
 	text-align: center;
 }
 
-#post-title{
+#post-title {
 	font-size: 35px;
-	font-style:italic
+	font-style: italic
 }
 
-hr {border: 0;
-height: 1px;
-background: #333;
-background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
-background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
-background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
-background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
 
 blockquote {
-  background: url('http://i.imgur.com/VG5N5iW.gif') top left no-repeat;
-  padding-left: 50px;
-  background-color: #dadada;
-  padding-left: 70px;
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-right: 10px;
+    background: url('http://i.imgur.com/VG5N5iW.gif') top left no-repeat;
+    padding-left: 70px;
+    background-color: #dadada;
+    padding-left: 70px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 10px;
 
 } 
 
-footer{
-	font-size: 20px;
+footer {
+	font-size: 32px;
 	text-align: center;
-	background-color: rgb(66, 139, 202);
-	color: #fff;
-	padding: 5px 5px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: rgba(255, 255, 255, 0.9);
+	padding: 60px 5px;
 	clear: both;
 }
 
-@media (max-width: 968px){
+@media (max-width: 968px) {
 	#blog {
 		max-width: 100%;
 	}
@@ -104,12 +106,55 @@ footer{
 		display: none;
 	}
 
-	blockquote{
-	padding-left: 20%;
-	padding-top: 3%;
-	padding-bottom: 3%;
-	padding-right: 5%;
-  	margin-right: -5%;
-	margin-left: -5%;
+	blockquote {
+    	padding-left: 20%;
+    	padding-top: 3%;
+    	padding-bottom: 3%;
+    	padding-right: 5%;
+     	margin-right: -5%;
+    	margin-left: -5%;
 	}
 }
+
+@media (max-width: 319px) {
+    header {
+	    font-size: 1em;
+	    text-align: center;
+	    background-color: rgb(66, 139, 202);
+	    color: #fff;
+	    padding: 2px 2px;
+    }
+
+    #post-title {
+	    font-size: 1em;
+	    font-style: italic;
+    }
+    
+	#blog {
+		font-size: 0.5em;
+	}
+
+	nav {
+		display: none;
+	}
+
+	blockquote {
+    	padding-left: 20%;
+    	padding-top: 3%;
+    	padding-bottom: 3%;
+    	padding-right: 5%;
+     	margin-right: -5%;
+    	margin-left: -5%;
+	}
+	
+	footer {
+        font-size: 1em;
+	    text-align: center;
+	    background-color: rgba(0, 0, 0, 0.7);
+	    color: rgba(255, 255, 255, 0.9);
+	    padding: 2px 2px;
+	    clear: both;
+    }
+}
+
+

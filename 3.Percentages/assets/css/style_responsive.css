@@ -13,11 +13,14 @@ body{
 
 .title{
 	text-align: center;
-	font-size: 40px;
-	background-color: #edf1fa;
+	font-size: 2.2em;
+	line-height: 2em;
+	color: white;
+	background-color: rgba(0, 0, 240, 0.6);
 }
 
 .content{
-	font-size: 20px;
-	background-color: rgb(66, 139, 202);
+	font-size: 1.2em;
+	line-height: 1.6em;
+	background-color: rgb(220, 220, 235);
 }

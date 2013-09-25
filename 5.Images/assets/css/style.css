@@ -1,4 +1,8 @@
-body{
-	font-family: georgia;
-	font-size: 25px;
+body {
+  font-family: georgia;
+  font-size: 25px;
+}
+
+img {
+  overflow: hidden;
 }

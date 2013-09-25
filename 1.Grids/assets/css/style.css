@@ -1,23 +1,34 @@
-.grid{
-	clear: both;
+body html head {
+    padding: 0px;
+    margin: 0px;
 }
 
-.column{
-	width: 25%;
+.column {
 	display: block;
 	float: left;
+	width: 25%;
 }
 
-.box{
+.rectangle {
+	width: 90%;
+	height: 256px;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: #3652a4;
+	border-radius: 10%;
+}
+
+@media (max-width: 1045px) {
+  .column {
+  	width: 100%;
+  	margin: 1% 1% 1% 1%;
+  }
+  
+  .rectangle {
 	width: 256px;
 	height: 256px;
-	background-color: #3652a4; /*355a36; 693f5c*/
-	border-radius: 3%;
+	background-color: #3652a4;
+	border-radius: 10%;
+    }
 }
 
-@media (max-width: 968px) {
-  .column{
-  	width: 100%;
-  	margin: 1% 0 1% 1.6%;
-  }
-}
